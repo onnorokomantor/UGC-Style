@@ -2,11 +2,23 @@ body {
     background-color: rgb(255, 255, 255);
   }
   h1 {
-    color: blue;
+    color:020929;
+    font-size: xx-large;
+    font-family: poppins;
+    width: 700;
+  }
+  h2 {
+    color:020929;
+    font-size: x-large;
+    font-family: poppins;
+    width: 700;
   }
   p {
-    color: red;
-
+    color:40afb6;
+    font-size: medium;
+    font-family: poppins;
+    width: 600;
+    font-weight: bold;
       }
 
       .container {

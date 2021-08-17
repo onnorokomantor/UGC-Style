@@ -1,5 +1,9 @@
 body {
     background-color: rgb(255, 255, 255);
+    
+    margin: auto;
+    padding: 50px;
+    text-align: left;
   }
   h1 {
     color:020929;
@@ -30,7 +34,8 @@ body {
         position: absolute;
         width: 1000px;
         height: 1000px;
-        border: 1px solid red;
+        border: 5px solid;
+        border-color: 40afb6;
       }
       .imageOne {
         position:absolute;
@@ -53,9 +58,14 @@ body {
       mix-blend-mode: screen;
         z-index: 4;
     }
+
+    .imageFour {
+      position: absolute;
+        z-index: 5;
+    }
   .saturation {
     filter: saturate(120%);
   }
-
+  
 
   }

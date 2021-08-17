@@ -7,19 +7,43 @@ body {
   p {
     color: red;
 
-    
-      .image {
+      }
+
+      .container {
         position: relative;
-        width: 100px;
-        height: 100px;
+        z-index: 0;
+    }
+    
+    .image {
+        position: absolute;
+        width: 1000px;
+        height: 1000px;
         border: 1px solid red;
       }
       .imageOne {
-          z-index: 0;
-      }
-      .imageTwo {
+        position:absolute;
           z-index: 1;
       }
+      .imageTwo {
+        position: absolute;
+        mix-blend-mode:multiply;
+          z-index: 2;
+      }
+    
+    .imageThree {
+      position: absolute;
+      mix-blend-mode: screen;
+        z-index: 3;
+    }
+
+    .imageThree {
+      position: absolute;
+      mix-blend-mode: screen;
+        z-index: 4;
+    }
+  .saturation {
+    filter: saturate(120%);
+  }
 
 
   }
